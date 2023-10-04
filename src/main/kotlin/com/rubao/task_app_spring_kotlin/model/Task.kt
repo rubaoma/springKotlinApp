@@ -1,4 +1,4 @@
-package data.model
+package com.rubao.task_app_spring_kotlin.model
 
 import jakarta.persistence.*
 import jakarta.validation.constraints.NotBlank

@@ -1,6 +1,6 @@
-package repository
+package com.rubao.task_app_spring_kotlin.repository
 
-import data.model.Task
+import com.rubao.task_app_spring_kotlin.model.Task
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.data.jpa.repository.Query
 
