@@ -1,5 +1,6 @@
-package com.rubao.task_app_spring_kotlin.model
+package com.rubao.task_app_spring_kotlin.data
 
+import com.rubao.task_app_spring_kotlin.data.model.Priority
 import jakarta.persistence.*
 import jakarta.validation.constraints.NotBlank
 import jakarta.validation.constraints.NotNull

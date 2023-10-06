@@ -1,16 +1,15 @@
 package com.rubao.task_app_spring_kotlin.service
 
-import com.rubao.task_app_spring_kotlin.model.Task
-import com.rubao.task_app_spring_kotlin.model.TaskCreateRequest
-import com.rubao.task_app_spring_kotlin.model.TaskDTO
-import com.rubao.task_app_spring_kotlin.model.TaskUpdateRequest
+import com.rubao.task_app_spring_kotlin.data.Task
+import com.rubao.task_app_spring_kotlin.data.model.TaskCreateRequest
+import com.rubao.task_app_spring_kotlin.data.model.TaskDTO
+import com.rubao.task_app_spring_kotlin.data.model.TaskUpdateRequest
 import com.rubao.task_app_spring_kotlin.exception.BadRequestException
 import com.rubao.task_app_spring_kotlin.exception.TaskNotFoundException
 import org.springframework.stereotype.Service
 import org.springframework.util.ReflectionUtils
 import com.rubao.task_app_spring_kotlin.repository.TaskRepository
 import java.lang.reflect.Field
-import java.util.stream.Collector
 import java.util.stream.Collectors
 import kotlin.reflect.full.memberProperties
 

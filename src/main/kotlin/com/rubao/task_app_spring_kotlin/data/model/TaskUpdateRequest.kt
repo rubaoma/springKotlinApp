@@ -1,4 +1,4 @@
-package com.rubao.task_app_spring_kotlin.model
+package com.rubao.task_app_spring_kotlin.data.model
 
 data class TaskUpdateRequest(
         val description: String?,
